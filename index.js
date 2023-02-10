@@ -8,7 +8,7 @@ As credenciais são chaves únicas com as quais identificamos uma integração n
 Servem para capturar pagamentos em lojas virtuais e outras aplicações de forma segura.
  
 */
-const mp = new MercadoPago("TEST-370ed3f9-1b96-41e3-be21-5c43825dab73"); // setando public key
+const mp = new MercadoPago("APP_USR-dd70948f-f3ff-407c-9cde-a4e226b641e2"); // setando public key
 
 /*
 Step 2;
@@ -105,7 +105,7 @@ const cardForm = mp.cardForm({
                 identificationType,
             } = cardForm.getCardFormData();
 
-            fetch("/process_payment.php", {
+            fetch("/process_payment", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

@@ -3,7 +3,7 @@
 
 require_once 'vendor/autoload.php';
 
-MercadoPago\SDK::setAccessToken("YOUR_ACCESS_TOKEN");
+MercadoPago\SDK::setAccessToken("APP_USR-1869536208867128-020714-0a30a437828ac67352c0656038a0af13-1162132629");
 
 // Instancia a classe Payment que provê os metodos para acessar a API que irá criar o pagamento. 
 $payment = new MercadoPago\Payment();
