@@ -5,14 +5,14 @@ function createComment(name, verified, commentText, starsCount) {
     // Cria a lista de estrelas
     const stars = document.createElement('ul');
     stars.innerHTML = `
-        <li class="fa-sharp fa-solid fa-star userstar"></li>
-        <li class="fa-sharp fa-solid fa-star userstar"></li>
-        <li class="fa-sharp fa-solid fa-star userstar"></li>
-        <li class="fa-sharp fa-solid fa-star userstar"></li>
-        <li class="fa-sharp fa-solid fa-star userstar"></li>
+        <li class="fa-sharp fa-solid fa-star userstar aval"></li>
+        <li class="fa-sharp fa-solid fa-star userstar aval"></li>
+        <li class="fa-sharp fa-solid fa-star userstar aval"></li>
+        <li class="fa-sharp fa-solid fa-star userstar aval"></li>
+        <li class="fa-sharp fa-solid fa-star userstar aval"></li>
         <h6 class="name">${name}</h6>
         <i class="fa-sharp fa-solid fa-circle-check"></i>
-        <span>Compra verificada</span>
+        <span class="verify">Compra verificada</span>
         <p class="comment">${commentText}</p>
     `;
 
