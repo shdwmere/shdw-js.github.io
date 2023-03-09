@@ -1,0 +1,107 @@
+.container {
+    /* border: 1px solid; */
+    margin-top: 5px;
+}
+
+.wrap {
+    margin-bottom: 5px;
+    /* border: 1px solid grey; */
+    display: flex;
+}
+
+.totalRating {
+    /* border: 1px solid lime; */
+    padding: 5px;
+    width: fit-content;
+    text-align: center;
+}
+
+.totalRating h5 {
+    font-size: 25px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 6px;
+    max-height: 21px;
+}
+
+.name {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.ratingBars {
+    /* border: 1px solid red; */
+    display: block;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#amountAv {
+    font-size: 12px;
+}
+
+#avClientes {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    color: gold;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.goldenHR {
+    width: 50px;
+    border-color: gold;
+    border-width: 3px;
+    opacity: 1;
+    position: relative;
+    bottom: 8px;
+}
+
+.emptyHR {
+    width: 50px;
+    border-color: rgb(216, 216, 216);
+    border-width: 3px;
+    opacity: 1;
+    position: relative;
+    bottom: 8px;
+}
+
+.textBars {
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-circle-check {
+    color: rgb(4, 224, 4);
+    font-size: 8px;
+}
+
+span {
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.comment {
+    font-size: 9px;
+}
+
+.userstar {
+    font-size: 12px;
+}
